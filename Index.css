@@ -1,0 +1,140 @@
+root{
+   --yellow :#F8DE22; 
+   --red : #F94C10;
+   --green : #98D8AA;
+   --white :#FFFFE8;
+
+
+}
+body,h2{
+     margin: 0; 
+     font-family: Arial, Helvetica, sans-serif;                                            
+}
+.landing{
+    background-image: url('./Media/Biriyani.png.jpg');       
+    background-size: cover;
+    background-position: center;
+   
+    height: 100vh;
+    background-repeat: no-repeat; 
+    
+    color: #FFFFE8;
+    
+}
+
+header a{
+     text-decoration: none;
+     color:#F8DE22;  
+     min-width: 120px;                                           
+}
+header{
+        display: flex;
+        padding: 1em; 
+        flex-wrap: wrap;
+        row-gap: 1em;                                 
+}
+#logo{
+    flex: 3; 
+    font-size: 1.5em;
+    min-width: 260px;                                             
+}
+
+nav{
+                                                  
+    flex: 2; 
+    display: flex;
+    align-items: center;
+}
+nav a{
+   flex: 1;  
+
+}
+nav a:hover{
+   color: #98D8AA;                                              
+}
+.maintext{
+   display: flex;  
+   flex-direction: column;   
+   height:50vh;  
+   justify-content: center; 
+   padding: 2em;                                       
+}
+.tagline{
+      color: #F94C10;   
+      font-weight: bolder; 
+      font-size: 2em;  
+
+}
+.tagline2{
+   color: #F8DE22;
+}
+.maintext div{
+   margin-top: .75em                                               
+}
+.maintext button{
+          width: 20vw;
+          margin-top: 2em; 
+          border-radius: 10px;
+          padding: .7em; 
+          background-color: #98D8AA;  
+          border:1px solid #98D8AA;                                    
+}
+.menu{
+   display: grid; 
+   grid-template-columns:repeat(auto-fit,minmax(320px,1fr)) ;
+   background: linear-gradient(to right,rgb(111, 109, 109),rgb(148, 140, 140));                                              
+   color: #FFFFE8;
+}
+#menuheading,#locheading{
+ background: linear-gradient(to right,rgb(111, 109, 109),rgb(148, 140, 140));                                              
+color: #F94C10;  
+font-size: 2.5em;                                       
+}
+table{
+    width: 100%;
+    padding: 1em;                                              
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;                                              
+}
+.menu td:nth-child(1){
+  flex: 1;                                                
+justify-self: left;
+}
+menu td:nth-child(2){
+        justify-self: right;                                          
+
+}
+.maimcourse{
+   grid-row: span 2;                                               
+}
+
+.locations{
+ background: linear-gradient(to right,rgb(111, 109, 109),rgb(148, 140, 140));                                                                     
+ color: #FFFFE8;
+ display: flex;
+ flex-wrap: wrap;               
+}
+.locations h2{
+    color: #98D8AA;
+  
+    margin-bottom: .8em;
+}
+.locations div{
+      flex: 1;
+      padding: 1em; 
+      min-width: 220px;                                           
+}
+footer{
+    background-color: rgb(84, 82, 82); 
+    color: #FFFFE8;
+    padding: .25em 1em;                                             
+}
+header , i , nav,a i{
+     margin-right: .5em;                                             
+}
+
+
+
